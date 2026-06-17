@@ -104,25 +104,25 @@ export default function Home() {
           <nav className="hidden md:flex gap-8">
             <a
               href="#about"
-              className="text-sm font-medium hover:text-primary transition-colors"
+              className="text-sm font-medium hover:text-primary transition-colors" style={{fontSize: '16px'}}
             >
               About
             </a>
             <a
               href="#skills"
-              className="text-sm font-medium hover:text-primary transition-colors"
+              className="text-sm font-medium hover:text-primary transition-colors" style={{fontSize: '16px'}}
             >
               Skills
             </a>
             <a
               href="#education"
-              className="text-sm font-medium hover:text-primary transition-colors"
+              className="text-sm font-medium hover:text-primary transition-colors" style={{fontSize: '16px'}}
             >
               Education
             </a>
             <a
               href="#contact"
-              className="text-sm font-medium hover:text-primary transition-colors"
+              className="text-sm font-medium hover:text-primary transition-colors" style={{fontSize: '16px'}}
             >
               Contact
             </a>
@@ -153,11 +153,11 @@ export default function Home() {
               <h1 className="text-5xl md:text-6xl font-serif font-bold text-foreground leading-tight">
                 Mohd. Navin
               </h1>
-              <p className="text-xl text-muted-foreground mt-2" style={{color: '#213533'}}>
+              <p className="text-xl text-muted-foreground mt-2" style={{color: '#213533', fontWeight: '700'}}>
                 Sarvr Ansari
               </p>
             </div>
-            <p className="text-lg text-foreground/80 leading-relaxed">
+            <p className="text-lg text-foreground/80 leading-relaxed" style={{fontSize: '20px', fontWeight: '600', width: '700px'}}>
               Diploma Student in Computer Science & Engineering. Passionate
               about crafting elegant digital experiences through clean code and
               thoughtful design.
@@ -190,7 +190,7 @@ export default function Home() {
                 <img
                   src="/manus-storage/IMG-20250912-WA0000(1)_9f853c0e.jpg"
                   alt="Mohd. Navin Sarvr Ansari"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover" style={{borderRadius: '10px'}}
                 />
               </div>
             </div>
@@ -199,7 +199,7 @@ export default function Home() {
       </section>
 
       {/* Accent Divider */}
-      <div className="container py-8">
+      <div className="container" style={{height: '10px', paddingTop: '0px', paddingBottom: '0px'}}>
         <img
           src="https://d2xsxph8kpxj0f.cloudfront.net/310519663698702264/2aGwyK3arsapUYEJFiMCmp/accent-divider-j6QQpLNsEm5ksWWoDpHatC.webp"
           alt="divider"
