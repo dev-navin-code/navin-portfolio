@@ -153,7 +153,7 @@ export default function Home() {
               <h1 className="text-5xl md:text-6xl font-serif font-bold text-foreground leading-tight">
                 Mohd. Navin
               </h1>
-              <p className="text-xl text-muted-foreground mt-2">
+              <p className="text-xl text-muted-foreground mt-2" style={{color: '#213533'}}>
                 Sarvr Ansari
               </p>
             </div>
@@ -426,10 +426,10 @@ export default function Home() {
               <div className="flex items-center gap-4">
                 <Mail className="w-6 h-6 text-primary" />
                 <a
-                  href="mailto:navin@example.com"
+                  href="mailto:navinsarvr2006@gmail.com"
                   className="text-foreground hover:text-primary transition-colors"
                 >
-                  navin@example.com
+                  navinsarvr2006@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-4">
@@ -444,7 +444,7 @@ export default function Home() {
               <div className="flex items-center gap-4">
                 <Linkedin className="w-6 h-6 text-primary" />
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/mohd-navin-sarvar-ansari-0552b3402/"
                   className="text-foreground hover:text-primary transition-colors"
                 >
                   linkedin.com/in/navin
