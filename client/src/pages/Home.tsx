@@ -157,7 +157,7 @@ export default function Home() {
                 Sarvr Ansari
               </p>
             </div>
-            <p className="text-lg text-foreground/80 leading-relaxed" style={{fontSize: '20px', fontWeight: '600', width: '700px'}}>
+            <p className="text-lg text-foreground/80 leading-relaxed" style={{fontSize: '20px', fontWeight: '600', width: '584px'}}>
               Diploma Student in Computer Science & Engineering. Passionate
               about crafting elegant digital experiences through clean code and
               thoughtful design.
@@ -199,7 +199,7 @@ export default function Home() {
       </section>
 
       {/* Accent Divider */}
-      <div className="container" style={{height: '10px', paddingTop: '0px', paddingBottom: '0px'}}>
+      <div className="container" style={{height: '10px', paddingTop: '16px', paddingBottom: '16px'}}>
         <img
           src="https://d2xsxph8kpxj0f.cloudfront.net/310519663698702264/2aGwyK3arsapUYEJFiMCmp/accent-divider-j6QQpLNsEm5ksWWoDpHatC.webp"
           alt="divider"
